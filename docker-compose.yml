@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+    buster:
+        user: "1000"
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        working_dir: /home/workspace/programming-typescript
+        volumes:
+            - ./:/home/workspace/programming-typescript
+        tty:
+            true
