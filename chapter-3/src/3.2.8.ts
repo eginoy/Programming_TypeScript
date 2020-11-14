@@ -38,7 +38,7 @@ const chapter3_2_8 = () => {
             public firstName: string,
             public lastName: string
         ) { }
-    
+    }
     let o = new Person('matt', 'smith')
 
     let p: { a: number }
@@ -82,7 +82,7 @@ const chapter3_2_8 = () => {
         firstName: 'キラキラネーム',
         lastName: '一般的な苗字'
     }
-    user.firstName = '一般的なfirstName' //error firstNameはreadonlyのため再割り当て不可
+    // user.firstName = '一般的なfirstName' //error firstNameはreadonlyのため再割り当て不可
     user.lastName = 'かっこいい苗字'
 
     //オブジェクトがどのようなフィールドを持つか重視しない場合にはobjectリテラルを使う。
