@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "lib":["es2015","DOM"],
+        "lib":["ESNext","DOM"],
         "module": "commonjs",
         "outDir": "dist",
         "sourceMap": true,
         "strict": true,
-        "target": "es2015"
+        "target": "esnext"
     },
     "include": [
         "src"
