@@ -11,7 +11,7 @@ const chapter4_1_7 = () => {
     type Greet = (name: string) => string
 
     // function log(message: string, userId?: string)
-    type Log(message: string, userId?: string) => void 
+    type Log = (message: string, userId?: string) => void 
     
     // function sumVariadicSafe(...numbers: number[]): number
     type SumVariadicSafe = (...number: number[]) => number
