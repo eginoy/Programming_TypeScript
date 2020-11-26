@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-    buster:
+    app:
         user: "1000"
         build:
             context: ./
