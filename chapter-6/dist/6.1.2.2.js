@@ -41,7 +41,7 @@ const chapter6_1_2_2 = () => {
     }
     clone(animalToBird); //ok
     function crowToBird(c) {
-        // c.caw()
+        c.caw();
         return new Bird();
     }
     /*
