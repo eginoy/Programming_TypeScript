@@ -34,6 +34,7 @@ const chapter6_1_4 = () => {
     let a5 = null; //any type
     a5 = 3; //any type
     a = 'b'; //any type
+    //nullで初期化された変数は、スコープを抜けると明確な型が割り当てられる
     function x() {
         let a = null; //any type
         a = 3; //any type
