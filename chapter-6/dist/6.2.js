@@ -11,11 +11,12 @@ const chapter6_2 = () => {
     }
     /*
     tsconfigのcompilerOptionsで'noImplicitReturns'を有効化すると、
-    値を返さない関数に対して警告してくれるようになる。
+    返り値がvoidでない関数が値を返さないケースが存在する場合、警告してくれるようになる。
+    (strictには含まれないので、手動で有効化する必要がある)
     */
     function isBig(n) {
         if (n >= 100) {
-            true;
+            return true;
         }
     }
 };
