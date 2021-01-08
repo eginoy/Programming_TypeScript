@@ -69,7 +69,7 @@ const chapter6_6_2 = () => {
         必須フィールドを指定してもコンパイルエラーにならない。
         TypeScript 4.0での変更のため、deleteのオペランドに必須フィールドをしていするとコンパイルエラーになる。
         (strictNullChecks指定時)
-        package.jsonのtypescriptのversion指定を3.8にしてからコンパイルして確認した。
+        package.jsonのtypescriptのversion指定を3.8にしてからコンパイルしてコンパイルエラーにならないのを確認した。
         */
         delete dialog.id
     }
