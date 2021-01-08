@@ -20,7 +20,8 @@ const chapter6_3_1_2 = () => {
         keys.forEach(key => result = result[key]);
         return result;
     };
-    console.log(get2(activityLog, 'events', 0, 'type')); //'Read'
+    get2(activityLog, 'events', 0, 'type'); //'Read'
+    get2(activityLog, 'bad'); //型安全なので存在しないプロパティを指定すると静的チェックでエラーになる。
 };
 chapter6_3_1_2();
 //# sourceMappingURL=6.3.1.2.js.map
