@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib":["ESNext","DOM"],
+        "module": "commonjs",
+        "outDir": "dist",
+        "sourceMap": true,
+        "strict": true,
+        "target": "esnext",
+        "noImplicitReturns": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "./zip.ts"
+    ]
+}
