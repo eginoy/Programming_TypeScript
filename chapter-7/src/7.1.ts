@@ -30,3 +30,4 @@ const chapter7_1 = () => {
     }else{
         console.error('Error parsing date for some reason')
     }
+}
