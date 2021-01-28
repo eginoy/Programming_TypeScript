@@ -1,5 +1,4 @@
 import * as fs from 'fs'
-import { isRegExp } from 'util'
 const chapter8_2 = () => {
     //Apacheサーバーのアクセスログからデータを読み込む
     const logFilePath = './var/log/apache2/access_log'
