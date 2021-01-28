@@ -5,3 +5,7 @@ RealWorld-TypeScript-React-Reduxか何かのサンプルコードで同じよう
 P.136
 noImplicitReturns( 関数のコードが値を返すことをチェックする) 
 有効にしたほうが良さそう。strictに含まれていないので手動で有効にする必要あり。
+
+P.186~
+Promiseを自前で実装していく内容
+全体の復習として良い感じ
