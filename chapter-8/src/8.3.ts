@@ -5,7 +5,7 @@ const chapter8_3 = () => {
         resolve: (result: T) => void,
         reject: (error: unknown) => void
      ) => void
-    class Promise<T,E extends Error>{
+    class Promise<T>{
         constructor(f: Executor<T>){}
         then<U>(g: (result: T) => Promise<U> | U): Promise<U>{
             //...
@@ -15,7 +15,7 @@ const chapter8_3 = () => {
         }
     }
 
-    function readFilePromise(path: string): Promise<string> {
+    function readFilePromise(path: string): Promise<Buffer> {
         return new Promise((resolve,reject) => {
             readFile(path,(error,result)=>{
                 if(error){
